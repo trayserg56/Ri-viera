@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.css">
+	<script src="js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+	
+	
+
+
+		<header>
+			<div class="wrapper">
+                <div class="header__items">
+                    <div class="header__item">
+                        <div class="header__item__links">
+                            <ul class="header__item__ul">
+                                <li><a href="dostavka.html">Доставка и оплата</a></li>
+                                <li><a href="disaineram.html">Дизайнерам</a></li>
+                                <li><a href="about.html">О компании</a></li>
+                                <li><a href="opt.html">Опт</a></li>
+                            </ul>
+                        </div>
+                        <div class="header__item__btn">
+                            <a href="blog.html">Блог</a>
+                        </div>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__item__img">
+                            <a href="index.html"><img src="img/Logo.png" alt="#"></a>
+                        </div>
+                        <p class="header__p-center">Интернет-магазин дизайнерских ретро-радиаторов</p>
+                    </div>
+                    <div class="header__item">
+                        <div class="header__item__top-item">
+                            <div class="top-item__link link_icon"><a href="#"><img src="img/search (1).png" alt="#" class="top-item__link_icon"></a></div>
+                            <div class="top-item__link link_icon cart"><a href="#"><img src="img/shopping-cart.png" alt="#" class="top-item__link_icon"></a></div>
+                            <div class="top-item__link link_link"><a href="javascript:PopUpShow()" class="top-item__link_link">Заказать звонок</a></div>
+                        </div>
+                        <div class="header__item__bottom-item">
+                            <a href="#">8 (499) 433-07-75</a>
+                            <p><span>Работаем 24 часа</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</header>
+
+
+        <div class="mobile__header">
+                <div class="wrapper">
+                    <div class="mobile__header__items">
+                        <div class="header__item mobile__header__item">
+                            <div class="header__item__img">
+                                <a href="index.html"><img src="img/Logo.png" alt="#"></a>
+                            </div>
+                        </div>
+                        <div class="header__item__bottom-item mobile__header__item">
+                            <a href="#">8 (499) 433-07-75</a>
+                            <p><span>Работаем 24 часа</span></p>
+                        </div>
+                        <div class="top-item__link link_link"><a href="#" class="top-item__link_link">Заказать звонок</a></div>
+                        <div class="header__item mobile__header__item">
+                            <div class="header__item__top-item">
+                                <div class="top-item__link link_icon cart"><a href="#"><img src="img/shopping-cart.png" alt="#" class="top-item__link_icon"></a></div>
+                            </div>
+                        </div>
+                        <div class="mobile__header__item">
+                            <span><img src="img/gamburger.png" alt="#"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        <div class="wrapper">
+		<div class="mainLinks">
+			<ul>
+				<li><a href="#">Новинки</a></li>
+				<li><a href="#">Акции</a></li>
+				<li><a href="radiatoty.html">Радиаторы чугунные</a></li>
+				<li><a href="#">Свет</a></li>
+				<li><a href="aksesuary.html">Электрика</a></li>
+				<li><a href="aksesuary.html">Аксессуары</a></li>
+			</ul>
+		</div>
+
+		
+
+
+		<div class="brad">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Радиаторы чугунные</a></li>
+            </ul>
+        </div>
+
+        <div class="radiatori__mobile">
+                <div class="advancingMenu__menu">
+                    <ul class="advancingMenu__menu__ul menu ">
+                        <li class="advancingMenu__menu__ul__li_a"><span>Фильтр</span>
+                            <div class="menu__back">
+
+                            </div>
+                            <ul class="submenu none">
+                                <li class="li__open li__open1"><span>Бренд</span>
+                                    <ul class="submenu__new submenu__new1 none">
+                                        <div class="brend">
+                                        <div class="input-form">
+                                            <input type="radio" name="otvets" value="one" id="otvet1" class="main-form__form-form_input checkbox">
+                                            <label for="otvet1" class="form__input_label">Grotescco</label>
+                                        </div>
+                                        <div class="input-form">
+                                            <input type="radio" name="otvets" value="two" id="otvet2" class="main-form__form-form_input checkbox">
+                                            <label for="otvet2" class="form__input_label">Derby</label>
+                                        </div>
+                                        <div class="input-form">
+                                            <input type="radio" name="otvets" value="three" id="otvet3" class="main-form__form-form_input checkbox">
+                                            <label for="otvet3" class="form__input_label">Windsor</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet4" class="main-form__form-form_input checkbox">
+                                                <label for="otvet4" class="form__input_label">Reading</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet5" class="main-form__form-form_input checkbox">
+                                                <label for="otvet5" class="form__input_label">Bristol</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet6" class="main-form__form-form_input checkbox">
+                                                <label for="otvet6" class="form__input_label">Anerli</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet7" class="main-form__form-form_input checkbox">
+                                                <label for="otvet7" class="form__input_label">Atena</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet8" class="main-form__form-form_input checkbox">
+                                                <label for="otvet8" class="form__input_label">Barton</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet9" class="main-form__form-form_input checkbox">
+                                                <label for="otvet9" class="form__input_label">Bohemia</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet10" class="main-form__form-form_input checkbox">
+                                                <label for="otvet10" class="form__input_label">Bolton</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet11" class="main-form__form-form_input checkbox">
+                                                <label for="otvet11" class="form__input_label">Chamonix</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet12" class="main-form__form-form_input checkbox">
+                                                <label for="otvet12" class="form__input_label">Oxford</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet13" class="main-form__form-form_input checkbox">
+                                                <label for="otvet13" class="form__input_label">Preston</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet14" class="main-form__form-form_input checkbox">
+                                                <label for="otvet14" class="form__input_label">Sheffield</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet15" class="main-form__form-form_input checkbox">
+                                                <label for="otvet15" class="form__input_label">Telford</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet16" class="main-form__form-form_input checkbox">
+                                                <label for="otvet16" class="form__input_label">Toulon</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet17" class="main-form__form-form_input checkbox">
+                                                <label for="otvet17" class="form__input_label">Verdun</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet18" class="main-form__form-form_input checkbox">
+                                                <label for="otvet18" class="form__input_label">Versailles</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet19" class="main-form__form-form_input checkbox">
+                                                <label for="otvet19" class="form__input_label">York</label>
+                                        </div>
+                                </div>
+                                    </ul>
+                                </li>
+                                <li class="li__open li__open2"><span>Цена</span>
+                                    <ul class="submenu__new submenu__new2 none">
+                                            <div class="price">
+                                        <div class="price__items">
+                                            <div class="price__input">
+                                                <p>От</p>
+                                                <input type="text" id="minCost" value="0"/>
+                                            </div>
+                                            <div class="price__input">
+                                                <p>До</p>
+                                                <input type="text" id="maxCost" value="35000"/>
+                                            </div>
+                                        </div>
+                                            <div id="slider1"></div>
+                                    <div class="price__check">
+                                        <div class="input-form otvet__price">
+                                                <input type="radio" name="otvets" value="three" id="otvet20" class="main-form__form-form_input checkbox">
+                                                <label for="otvet20" class="form__input_label">Новинка</label>
+                                        </div>
+                                        <div class="input-form otvet__price">
+                                                <input type="radio" name="otvets" value="three" id="otvet21" class="main-form__form-form_input checkbox">
+                                                <label for="otvet21" class="form__input_label">Хит продаж</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                        </ul>
+                                    </li>
+                                <li class="li__open li__open3"><span>Высота</span>
+                                    <ul class="submenu__new submenu__new3 none">
+                                             <div class="height">
+                                    <div class="height__items">
+                                            <div class="input-form">
+                                                    <input type="radio" name="otvets" value="three" id="otvet22" class="main-form__form-form_input checkbox">
+                                                    <label for="otvet22" class="form__input_label">100-200</label>
+                                            </div>
+                                            <div class="input-form">
+                                                    <input type="radio" name="otvets" value="three" id="otvet23" class="main-form__form-form_input checkbox">
+                                                    <label for="otvet23" class="form__input_label">200-500</label>
+                                            </div>
+                                            <div class="input-form">
+                                                    <input type="radio" name="otvets" value="three" id="otvet24" class="main-form__form-form_input checkbox">
+                                                    <label for="otvet24" class="form__input_label">200-800</label>
+                                            </div>
+                                            <div class="input-form">
+                                                    <input type="radio" name="otvets" value="three" id="otvet25" class="main-form__form-form_input checkbox">
+                                                    <label for="otvet25" class="form__input_label">800-1000</label>
+                                            </div>
+                                    </div>
+                                </div>
+                                        </ul>
+                                    </li>
+                                <li class="li__open li__open4"><span>Мощность</span>
+                                    <ul class="submenu__new submenu__new4 none">
+                                            <div class="power">
+                                                    <div class="height__items">
+                                                        <div class="input-form">
+                                                                <input type="radio" name="otvets" value="three" id="otvet26" class="main-form__form-form_input checkbox">
+                                                                <label for="otvet26" class="form__input_label">0-40</label>
+                                                        </div>
+                                                        <div class="input-form">
+                                                                <input type="radio" name="otvets" value="three" id="otvet27" class="main-form__form-form_input checkbox">
+                                                                <label for="otvet27" class="form__input_label">40-60</label>
+                                                        </div>
+                                                        <div class="input-form">
+                                                                <input type="radio" name="otvets" value="three" id="otvet28" class="main-form__form-form_input checkbox">
+                                                                <label for="otvet28" class="form__input_label">60-90</label>
+                                                        </div>
+                                                        <div class="input-form">
+                                                                <input type="radio" name="otvets" value="three" id="otvet29" class="main-form__form-form_input checkbox">
+                                                                <label for="otvet29" class="form__input_label">90-110</label>
+                                                        </div>
+                                                        <div class="input-form">
+                                                                <input type="radio" name="otvets" value="three" id="otvet30" class="main-form__form-form_input checkbox">
+                                                                <label for="otvet30" class="form__input_label">110-130</label>
+                                                        </div>
+                                                        <div class="input-form">
+                                                                <input type="radio" name="otvets" value="three" id="otvet25" class="main-form__form-form_input checkbox">
+                                                                <label for="otvet31" class="form__input_label">130-150</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                        </ul>
+                                    </li>
+                            </ul>
+                        </li>         
+                    </ul>
+                    </div>
+        </div>
+
+		<div class="novinkiradiator">
+			<div class="novinkileft">
+                <div class="form">
+                    <div class="form__offer">
+                        <p>Бренд</p>
+                    </div>
+                        <div class="form-form">
+                            <form action="#" class="form-form__form">
+                                <div class="brend">
+                                        <div class="input-form">
+                                            <input type="radio" name="otvets" value="one" id="otvet40" class="main-form__form-form_input checkbox">
+                                            <label for="otvet40" class="form__input_label">Grotescco</label>
+                                        </div>
+                                        <div class="input-form">
+                                            <input type="radio" name="otvets" value="two" id="otvet41" class="main-form__form-form_input checkbox">
+                                            <label for="otvet41" class="form__input_label">Derby</label>
+                                        </div>
+                                        <div class="input-form">
+                                            <input type="radio" name="otvets" value="three" id="otvet42" class="main-form__form-form_input checkbox">
+                                            <label for="otvet42" class="form__input_label">Windsor</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet43" class="main-form__form-form_input checkbox">
+                                                <label for="otvet43" class="form__input_label">Reading</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet44" class="main-form__form-form_input checkbox">
+                                                <label for="otvet44" class="form__input_label">Bristol</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet45" class="main-form__form-form_input checkbox">
+                                                <label for="otvet45" class="form__input_label">Anerli</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet46" class="main-form__form-form_input checkbox">
+                                                <label for="otvet46" class="form__input_label">Atena</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet47" class="main-form__form-form_input checkbox">
+                                                <label for="otvet47" class="form__input_label">Barton</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet48" class="main-form__form-form_input checkbox">
+                                                <label for="otvet48" class="form__input_label">Bohemia</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet49" class="main-form__form-form_input checkbox">
+                                                <label for="otvet49" class="form__input_label">Bolton</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet50" class="main-form__form-form_input checkbox">
+                                                <label for="otvet50" class="form__input_label">Chamonix</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet51" class="main-form__form-form_input checkbox">
+                                                <label for="otvet51" class="form__input_label">Oxford</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet52" class="main-form__form-form_input checkbox">
+                                                <label for="otvet52" class="form__input_label">Preston</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet53" class="main-form__form-form_input checkbox">
+                                                <label for="otvet53" class="form__input_label">Sheffield</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet54" class="main-form__form-form_input checkbox">
+                                                <label for="otvet54" class="form__input_label">Telford</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet55" class="main-form__form-form_input checkbox">
+                                                <label for="otvet55" class="form__input_label">Toulon</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet56" class="main-form__form-form_input checkbox">
+                                                <label for="otvet56" class="form__input_label">Verdun</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet57" class="main-form__form-form_input checkbox">
+                                                <label for="otvet57" class="form__input_label">Versailles</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet58" class="main-form__form-form_input checkbox">
+                                                <label for="otvet58" class="form__input_label">York</label>
+                                        </div>
+                                </div>
+                                <div class="price">
+                                    <div class="priceform__offer">
+                                        <p>Цена<span>(руб.)</span></p>
+                                    </div>
+                                        <div class="price__items">
+                                            <div class="price__input">
+                                                <p>От</p>
+                                                <input type="text" id="minCost" value="0"/>
+                                            </div>
+                                            <div class="price__input">
+                                                <p>До</p>
+                                                <input type="text" id="maxCost" value="35000"/>
+                                            </div>
+                                        </div>
+                                            <div id="slider2"></div>
+                                    <div class="price__check">
+                                        <div class="input-form otvet__price">
+                                                <input type="radio" name="otvets" value="three" id="otvet59" class="main-form__form-form_input checkbox">
+                                                <label for="otvet59" class="form__input_label">Новинка</label>
+                                        </div>
+                                        <div class="input-form otvet__price">
+                                                <input type="radio" name="otvets" value="three" id="otvet60" class="main-form__form-form_input checkbox">
+                                                <label for="otvet60" class="form__input_label">Хит продаж</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="height">
+                                    <div class="priceform__offer">
+                                            <p>Высота<span>(мм.)</span></p>
+                                    </div>
+                                    <div class="height__items">
+                                            <div class="input-form">
+                                                    <input type="radio" name="otvets" value="three" id="otvet61" class="main-form__form-form_input checkbox">
+                                                    <label for="otvet61" class="form__input_label">100-200</label>
+                                            </div>
+                                            <div class="input-form">
+                                                    <input type="radio" name="otvets" value="three" id="otvet62" class="main-form__form-form_input checkbox">
+                                                    <label for="otvet62" class="form__input_label">200-500</label>
+                                            </div>
+                                            <div class="input-form">
+                                                    <input type="radio" name="otvets" value="three" id="otvet63" class="main-form__form-form_input checkbox">
+                                                    <label for="otvet63" class="form__input_label">200-800</label>
+                                            </div>
+                                            <div class="input-form">
+                                                    <input type="radio" name="otvets" value="three" id="otvet64" class="main-form__form-form_input checkbox">
+                                                    <label for="otvet64" class="form__input_label">800-1000</label>
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="power">
+                                    <div class="priceform__offer">
+                                        <p>Мощность</p>
+                                    </div>
+                                    <div class="height__items">
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet65" class="main-form__form-form_input checkbox">
+                                                <label for="otvet65" class="form__input_label">0-40</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet66" class="main-form__form-form_input checkbox">
+                                                <label for="otvet66" class="form__input_label">40-60</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet67" class="main-form__form-form_input checkbox">
+                                                <label for="otvet67" class="form__input_label">60-90</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet68" class="main-form__form-form_input checkbox">
+                                                <label for="otvet69" class="form__input_label">90-110</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet70" class="main-form__form-form_input checkbox">
+                                                <label for="otvet70" class="form__input_label">110-130</label>
+                                        </div>
+                                        <div class="input-form">
+                                                <input type="radio" name="otvets" value="three" id="otvet71" class="main-form__form-form_input checkbox">
+                                                <label for="otvet71" class="form__input_label">130-150</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="kolvo">
+                                    <div class="priceform__offer">
+                                            <p>Количество секций</p>
+                                    </div>
+                                 
+                                </div>
+                                <div class="primenenie">
+                                    <input type="text" class="kolvo_sekziy" placeholder="Введите количество секций">
+                                    <div class="primenenie__rashet">
+                                        <a href="#">Применить фильтр</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+			<div class="novinki__items itemstwo">
+                <div class="itemstwooffer">
+                    <div class="novinki__offer offertwo">
+                            <p>Радиаторы чугунные</p>
+                    </div>
+                </div>
+                <div class="itemstwo__content">
+                        <div class="novinki__item two">
+                                <div class="novinki__item__img">
+                                    <img src="img/mainRadiator.jpg" alt="#">
+                                </div>
+                                <div class="novinki__item__text">
+                                    <p class="novinki__text_name">Grotescco RETROstyle 500/180</p>
+                                    <p class="novinki__text_size">Высота секции: <span>640мм</span></p>
+                                    <p class="novinki__text_price">3537 руб.</p>
+                                </div>
+                                <div class="novinki__item__btn">
+                                    <a href="page1.html">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="novinki__item two">
+                                <div class="novinki__item__img">
+                                    <img src="img/mainRadiator.jpg" alt="#">
+                                </div>
+                                <div class="novinki__item__text">
+                                    <p class="novinki__text_name">Grotescco RETROstyle 500/180</p>
+                                    <p class="novinki__text_size">Высота секции: <span>640мм</span></p>
+                                    <p class="novinki__text_price">3537 руб.</p>
+                                </div>
+                                <div class="novinki__item__btn">
+                                    <a href="page1.html">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="novinki__item two">
+                                <div class="novinki__item__img">
+                                    <img src="img/mainRadiator.jpg" alt="#">
+                                </div>
+                                <div class="novinki__item__text">
+                                    <p class="novinki__text_name">Grotescco RETROstyle 500/180</p>
+                                    <p class="novinki__text_size">Высота секции: <span>640мм</span></p>
+                                    <p class="novinki__text_price">3537 руб.</p>
+                                </div>
+                                <div class="novinki__item__btn">
+                                    <a href="page1.html">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="novinki__item two">
+                                <div class="novinki__item__img">
+                                    <img src="img/mainRadiator.jpg" alt="#">
+                                </div>
+                                <div class="novinki__item__text">
+                                    <p class="novinki__text_name">Grotescco RETROstyle 500/180</p>
+                                    <p class="novinki__text_size">Высота секции: <span>640мм</span></p>
+                                    <p class="novinki__text_price">3537 руб.</p>
+                                </div>
+                                <div class="novinki__item__btn">
+                                    <a href="page1.html">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="novinki__item two">
+                                <div class="novinki__item__img">
+                                    <img src="img/mainRadiator.jpg" alt="#">
+                                </div>
+                                <div class="novinki__item__text">
+                                    <p class="novinki__text_name">Grotescco RETROstyle 500/180</p>
+                                    <p class="novinki__text_size">Высота секции: <span>640мм</span></p>
+                                    <p class="novinki__text_price">3537 руб.</p>
+                                </div>
+                                <div class="novinki__item__btn">
+                                    <a href="page1.html">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="novinki__item two">
+                                <div class="novinki__item__img">
+                                    <img src="img/mainRadiator.jpg" alt="#">
+                                </div>
+                                <div class="novinki__item__text">
+                                    <p class="novinki__text_name">Grotescco RETROstyle 500/180</p>
+                                    <p class="novinki__text_size">Высота секции: <span>640мм</span></p>
+                                    <p class="novinki__text_price">3537 руб.</p>
+                                </div>
+                                <div class="novinki__item__btn">
+                                    <a href="page1.html">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="novinki__item two">
+                                <div class="novinki__item__img">
+                                    <img src="img/mainRadiator.jpg" alt="#">
+                                </div>
+                                <div class="novinki__item__text">
+                                    <p class="novinki__text_name">Grotescco RETROstyle 500/180</p>
+                                    <p class="novinki__text_size">Высота секции: <span>640мм</span></p>
+                                    <p class="novinki__text_price">3537 руб.</p>
+                                </div>
+                                <div class="novinki__item__btn">
+                                    <a href="page1.html">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="novinki__item two">
+                                <div class="novinki__item__img">
+                                    <img src="img/mainRadiator.jpg" alt="#">
+                                </div>
+                                <div class="novinki__item__text">
+                                    <p class="novinki__text_name">Grotescco RETROstyle 500/180</p>
+                                    <p class="novinki__text_size">Высота секции: <span>640мм</span></p>
+                                    <p class="novinki__text_price">3537 руб.</p>
+                                </div>
+                                <div class="novinki__item__btn">
+                                    <a href="page1.html">Подробнее</a>
+                                </div>
+                            </div>
+                            <div class="novinki__item novinki__item_last two">
+                                <div class="novinki__item__img">
+                                    <img src="img/mainRadiator.jpg" alt="#">
+                                </div>
+                                <div class="novinki__item__text">
+                                    <p class="novinki__text_name">Grotescco RETROstyle 500/180</p>
+                                    <p class="novinki__text_size">Высота секции: <span>640мм</span></p>
+                                    <p class="novinki__text_price">3537 руб.</p>
+                                </div>
+                                <div class="novinki__item__btn">
+                                    <a href="page1.html">Подробнее</a>
+                                </div>
+                            </div>
+                </div>
+                <div class="seo">
+                    <div class="seo__offer">
+                        <p>Сео текст</p>
+                    </div>
+                    <div class="seo__disc">
+                        <p>В своем стремлении улучшить пользовательский опыт мы упускаем, что интерактивные прототипы, превозмогая сложившуюся непростую экономическую ситуацию, разоблачены. Следует отметить, что существующая теория представляет собой интересный эксперимент проверки экономической целесообразности принимаемых решений. Идейные соображения высшего порядка, а также высококачественный прототип будущего проекта предопределяет высокую востребованность вывода текущих активов. Сложно сказать, почему сделанные на базе интернет-аналитики выводы, вне зависимости от их уровня, должны быть призваны к ответу. Лишь предприниматели в сети интернет лишь добавляют фракционных разногласий и ассоциативно распределены по отраслям.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+        <div class="seo">
+
+        </div>
+
+
+	<div class="footer">
+		<div class="footer__item">
+			<div class="footer__left__top">
+				<a href="#">ri-viera@info.ru</a>
+			</div>
+			<div class="footer__left__bottom">
+				<a href="#"><img src="img/vk.png" alt="#"></a
+				><a href="#"><img src="img/inst.png" alt="#"></a>
+			</div>
+		</div>
+		<div class="footer__item">
+			<a href="#"><img src="img/logoWhite.png" alt="#"></a>
+		</div>
+		<div class="footer__item">
+				<div class="footer__left__top">
+						<a href="#">8 (499) 433-07-75</a>
+				</div>
+				<div class="footer__left__bottom">
+					<a href="#"><img src="img/telegram.png" alt="#"></a>
+					<a href="#"><img src="img/whatsapp.png" alt="#"></a>
+					<a href="#"><img src="img/viber.png" alt="#"></a>
+				</div>
+		</div>
+	</div>
+
+
+	<div class="map">
+		<div class="map__item">
+			<p>Как приобрести</p>
+			<a href="#">Доставка и оплата</a>
+			<a href="#">Способы оплаты</a>
+			<a href="#">Доставка по Москве</a>
+			<a href="#">Доставка по регионам</a>
+		</div>
+		<div class="map__item">
+			<p>Категории товаров</p>
+			<a href="#">Чугунные радиаторы</a>
+			<a href="#">Свет</a>
+			<a href="#">Электрика</a>
+			<a href="#">Аксессуары для радиаторов</a>
+		</div>
+		<div class="map__item">
+			<p>Работать с нами</p>
+			<a href="#">Сотрудничество</a>
+			<a href="#">Дизайнерам</a>
+			<a href="#">Оптовые продажи</a>
+		</div>
+	</div>
+
+
+	<div class="bottomOffer">
+		<p>©Ri-viera2018</p>
+	</div>
+
+
+	</div>
+    
+    
+
+
+    <div class="mobile__menu none">
+		<div class="mobile__items">
+			<div class="top-item__link link_link"><a href="#" class="top-item__link_link">Заказать звонок</a></div>
+			<div class="menu__closer__cart"><a href="#"><img src="img/shopping-cart.png" alt="#" class="top-item__link_icon"></a></div>
+			<div class="mobile__menu__items__item menu__closer">
+				<img src="img/closer.png" alt="#">
+			</div>
+		</div>
+		<div class="mobile__header__find">
+			<div class="mobile__header__links__find">
+				<div class="mobile__header__links__find__text">
+					<p>Интернет-магазин дизайнерских<br>ретро-радиаторов</p>
+				</div>
+				<div class="mobile__header__links__find__img">
+					<img src="img/search (1).png" alt="#">
+				</div>
+			</div>
+		</div>
+		<div class="mobile__header__linksmain">
+			<a href="novinki.html"><span>Новинки</span></a>
+			<a href="akzii.html"><span>Акции</span></a>
+			<a href="radiatoty.html"><span>Радиаторы чугунные</span></a>
+			<a href="Svet.html"><span>Свет</span></a>
+			<a href="Electrica.html"><span>Электрика</span></a>
+			<a href="aksesuary.html"><span>Аксессуары</span></a>
+		</div>
+		<div class="mobile__header__footer">
+			<a href="dostavka.html"><span>Доставка и оплата</span></a>
+			<a href="disaineram.html"><span>Дизайнерам</span></a>
+			<a href="blog.html"><span>Блог</span></a>
+			<a href="about.html"><span>О компании</span></a>
+			<a href="opt.html"><span>Опт</span></a>
+		</div>
+		<div class="mobile__footer">
+			<div class="mobile__footer__item">
+				<div class="mobile__footer__item__number">
+					<a href="#">8 (499) 433-07-75</a>
+				</div>
+				<div class="mobile__footer__item__pochta">
+					<a href="#">ri-viera@info.ru</a>
+				</div>
+			</div>
+			<div class="mobile__footer__item">
+				<div class="mobile__footer__item__item">
+					<a href="#"><img src="img/telegram.png" alt="#"></a>
+					<a href="#"><img src="img/whatsapp.png" alt="#"></a>
+					<a href="#"><img src="img/viber.png" alt="#"></a>
+				</div>
+				<div class="mobile__footer__item__item">
+					<a href="#"><img src="img/blackvk.png" alt="#"></a>
+					<a href="#"><img src="img/blackints.png" alt="#"></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script type="text/javascript">
+        jQuery("#slider1").slider({
+        min: 0,
+        max: 35000,
+        values: [0,35000],
+        range: true,
+        stop: function(event, ui) {
+            jQuery("input#minCost").val(jQuery("#slider1").slider("values",0));
+            jQuery("input#maxCost").val(jQuery("#slider1").slider("values",1));
+        },
+        slide: function(event, ui){
+            jQuery("input#minCost").val(jQuery("#slider1").slider("values",0));
+            jQuery("input#maxCost").val(jQuery("#slider1").slider("values",1));
+        }
+         });
+         jQuery("input#minCost").change(function(){
+	var value1=jQuery("input#minCost").val();
+	var value2=jQuery("input#maxCost").val();
+
+    if(parseInt(value1) > parseInt(value2)){
+		value1 = value2;
+		jQuery("input#minCost").val(value1);
+	}
+	jQuery("#slider1").slider("values",0,value1);	
+});
+
+	
+jQuery("input#maxCost").change(function(){
+	var value1=jQuery("input#minCost").val();
+	var value2=jQuery("input#maxCost").val();
+	
+	if (value2 > 1000) { value2 = 1000; jQuery("input#maxCost").val(1000)}
+
+	if(parseInt(value1) > parseInt(value2)){
+		value2 = value1;
+		jQuery("input#maxCost").val(value2);
+	}
+	jQuery("#slider1").slider("values",1,value2);
+});
+        </script>
+    <script type="text/javascript">
+        jQuery("#slider2").slider({
+        min: 0,
+        max: 35000,
+        values: [0,35000],
+        range: true,
+        stop: function(event, ui) {
+            jQuery("input#minCost").val(jQuery("#slider2").slider("values",0));
+            jQuery("input#maxCost").val(jQuery("#slider2").slider("values",1));
+        },
+        slide: function(event, ui){
+            jQuery("input#minCost").val(jQuery("#slider2").slider("values",0));
+            jQuery("input#maxCost").val(jQuery("#slider2").slider("values",1));
+        }
+         });
+         jQuery("input#minCost").change(function(){
+	var value1=jQuery("input#minCost").val();
+	var value2=jQuery("input#maxCost").val();
+
+    if(parseInt(value1) > parseInt(value2)){
+		value1 = value2;
+		jQuery("input#minCost").val(value1);
+	}
+	jQuery("#slider2").slider("values",0,value1);	
+});
+
+	
+jQuery("input#maxCost").change(function(){
+	var value1=jQuery("input#minCost").val();
+	var value2=jQuery("input#maxCost").val();
+	
+	if (value2 > 1000) { value2 = 1000; jQuery("input#maxCost").val(1000)}
+
+	if(parseInt(value1) > parseInt(value2)){
+		value2 = value1;
+		jQuery("input#maxCost").val(value2);
+	}
+	jQuery("#slider").slider("values",1,value2);
+});
+        </script>
+    <script>
+        $(".mobile__header__item").click(function(){
+            $(".wrapper").addClass("none");
+            $(".mobile__menu").removeClass("none");
+            });
+    </script>
+    <script>
+        $(".menu__closer").click(function(){
+            $(".mobile__menu").addClass("none");
+            $(".wrapper").removeClass("none");
+            
+            });
+    </script>
+    <script>
+        $(".menu__closer").click(function(){
+            $(".mobile__menu").addClass("none");
+            $(".wrapper").removeClass("none");
+            
+            });
+        </script>
+    <script>
+        $(".menu__back").click(function(){
+            $(".submenu").toggleClass("none");
+        });
+        
+       
+    </script>
+    <script>
+            $(".li__open1").click(function(){
+                $(".submenu__new1").toggleClass("none");
+            });
+        </script>
+        <script>
+            $(".li__open2").click(function(){
+                $(".submenu__new2").toggleClass("none");
+            });
+        </script>
+        <script>
+            $(".li__open3").click(function(){
+                $(".submenu__new3").toggleClass("none");
+            });
+        </script>
+        <script>
+            $(".li__open4").click(function(){
+                $(".submenu__new4").toggleClass("none");
+            });
+        </script>
+</body>
+</html>
